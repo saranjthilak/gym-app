@@ -1,0 +1,6 @@
+@echo off
+echo Starting API server on port 3000...
+start cmd /k "cd api && npm start"
+
+echo Starting Frontend Vite dev server...
+start cmd /k "cd frontend && npm run dev"
