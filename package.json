@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "api": "npm --prefix api start"
+  },
   "devDependencies": {
     "js-yaml": "^4.1.0"
   }
