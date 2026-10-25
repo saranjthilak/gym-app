@@ -8,6 +8,8 @@ data/
 
 # Local config
 .env
+caddy_data/
+caddy_config/
 
 # Build output / deps
 frontend/dist/
